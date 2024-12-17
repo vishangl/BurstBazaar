@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlastBazzar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="png">
+
+</head>
+<body>
+   
+    <div class="container">
+        <img src="logo2.png" alt="Fireworks Logo">
+        <h1>BlastBazzar</h1>
+        <p>Brighten up your celebrations with our premium fireworks collection!</p>
+        <input type="text" name="email" placeholder="enter your mail" required>
+        <button>Show Intrest</button>
+    </div>
+    <script>
+        document.addEventListener("visibilitychange", () => {
+            if (document.hidden) {
+                document.title = "🖐️Come Back Soon!";
+            } else {
+                document.title = "BlastBazzar";
+            }
+        });
+    </script>
+</body>
+</html>
